@@ -9,11 +9,11 @@
 		<version>2.0.0.RC1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.curso</groupId>
-	<artifactId>RESTJWT</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>RESTJWT</name>
-	<description>Demo project for Spring Boot</description>
+	<groupId>com.nk-authentication.app</groupId>
+	<artifactId>nk-authentication</artifactId>
+	<version>0.0.1</version>
+	<name>nk-authentication.app</name>
+	<description>Administra la capa de Autenticacion y Token del Proyecto Nk-System</description>
 
 	<properties>
 		<java.version>1.8</java.version>		
