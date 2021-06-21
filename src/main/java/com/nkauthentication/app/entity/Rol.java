@@ -37,7 +37,7 @@ public class Rol implements Serializable {
 	@Column(name = "borrado", nullable = true)
 	private boolean borrado;
 	
-	private String Descripcion;
+	private String descripcion;
 
 	public Long getId() {
 		return id;
@@ -88,11 +88,11 @@ public class Rol implements Serializable {
 	}
 
 	public String getDescripcion() {
-		return Descripcion;
+		return descripcion;
 	}
 
 	public void setDescripcion(String descripcion) {
-		Descripcion = descripcion;
+		descripcion = descripcion;
 	}
 	
 	
